@@ -1,0 +1,18 @@
+1. All thing going throug the controller make sure in routes folder you give your controller file and in the database you give the right database name.
+
+2. We have config file for URL,database,routes and other thing.
+
+3. In controlerwe if we define an index function then we don't need to wright fun in URL it will automaticly run that function and if we wright the other function then we need to wright in the url to show the function.
+
+4. We have created an htaccess file to not showcase the index.php in the URL.
+
+5. Any thing need if we need to load in controler we need to load them like this  ($this->load->view('filename') ,$this->load->module(''),same goes for other)
+
+6. In PHP incogniter we have so many helpers that we can use for make code easier and short and we same for library and we can create library and helpers in this we can load them in the controller.
+
+7. In controller we use class as an object and in the view also and models also.
+
+8. We can connect the database through adding all thing in database.php in config file then we can load them in controller using ($this->db->('tablename'));
+
+
+
