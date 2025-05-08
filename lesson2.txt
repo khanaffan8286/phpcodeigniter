@@ -1,0 +1,6 @@
+1. Form validation we can use here by using helper form and in the html writing (<?php echo validation_errors(); ?>
+<?php echo form_open('form');?> and then close them)
+
+2. We can use validation form_validation.php create file in config and then we create array for validation.
+
+3. 
